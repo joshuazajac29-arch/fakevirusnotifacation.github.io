@@ -1,9 +1,6 @@
 let notificationInterval;
-let counter = 0;
 const images = [
-    'https://placekitten.com/200/200',
-    'https://placehold.co/200x200/3498db/white',
-    'https://placehold.co/200x200/e74c3c/white'
+    'file:///home/chronos/u-2993ddc60a462758e2107b60f6ead092d2485a05/MyFiles/Downloads/virus.png'
 ];
 
 // Request notification permission
