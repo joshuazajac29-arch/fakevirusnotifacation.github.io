@@ -28,7 +28,7 @@ function sendNotification() {
     
     counter++;
     const imageIndex = counter % images.length;
-    const notification = new Notification('Regular Update', {
+    const notification = new Notification('virus detected', {
         body: `This is notification #${counter} with an image!`,
         icon: images[imageIndex],
         image: images[imageIndex]
